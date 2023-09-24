@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Fuggles-Regular";
+    src: url(../resources/fonts/Fuggles/Fuggles-Regular.ttf);
+}
+
+#navBarCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#navTitleWrap {
+    text-decoration: none;
+
+}
+
+#navTitle {
+    text-align: center;
+    font-family: "Fuggles-Regular";
+    font-size: 84px;
+    color: rgb(5, 50, 61);
+    margin: 0px;
+}
+
+#navTel {
+    font-family: "Fuggles-Regular";
+    font-size: 64px;
+    color: rgb(5, 50, 61);
+    margin: 0px;
+    text-align: center;
+}
