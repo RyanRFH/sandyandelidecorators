@@ -38,7 +38,7 @@ const Home = () => {
                 <img className="homeGalleryImgTransTrig homeGalleryImg" src={img9} alt="img9"/>
             </div>
 
-            <div id="homeGalleryImgWrapTall" style={{justifyContent:"center"}}>
+            <div id="homeGalleryImgWrapTall">
                 <img className="homeGalleryImgTransTrig homeGalleryImg homeGalleryImgTall" src={img4} alt="img4"/>
                 <img className="homeGalleryImgTransTrig homeGalleryImg homeGalleryImgTall" src={img3} alt="img3"/>
             </div>
