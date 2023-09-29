@@ -30,15 +30,15 @@
     #navTitle {
         text-align: center;
         font-family: "Fuggles-Regular";
-        font-size: 62px;
+        font-size: 84px;
         color: rgb(10, 75, 98);
         margin: 0px;
-        height: 60px;
+        height: 80px;
     }
 
     #navTel {
         font-family: "Fuggles-Regular";
-        font-size: 32px;
+        font-size: 42px;
         color: rgb(10, 75, 98);
         margin: 0px;
         text-align: center;
@@ -51,6 +51,7 @@
         font-size: 42px;
         font-weight: bold;
         color: rgb(10, 75, 98);
+        height: 50px;
     }
 }
 

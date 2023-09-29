@@ -24,27 +24,27 @@ const Home = () => {
             <div id="homeGalleryCont">
 
             <div id="homeGalleryImgWrap">
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img2} alt="img2"/>
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img1} alt="img1"/>
+                <img className="homeGalleryImg" src={img2} alt="img2"/>
+                <img className="homeGalleryImg" src={img1} alt="img1"/>
             </div>
 
             <div id="homeGalleryImgWrap">
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img6} alt="img6"/>
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img7} alt="img7"/>
+                <img className="homeGalleryImg" src={img6} alt="img6"/>
+                <img className="homeGalleryImg" src={img7} alt="img7"/>
             </div>
 
             <div id="homeGalleryImgWrap">
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img8} alt="img8"/>
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img9} alt="img9"/>
+                <img className="homeGalleryImg" src={img8} alt="img8"/>
+                <img className="homeGalleryImg" src={img9} alt="img9"/>
             </div>
 
             <div id="homeGalleryImgWrapTall">
-                <img className="homeGalleryImgTransTrig homeGalleryImg homeGalleryImgTall" src={img4} alt="img4"/>
-                <img className="homeGalleryImgTransTrig homeGalleryImg homeGalleryImgTall" src={img3} alt="img3"/>
+                <img className="homeGalleryImg homeGalleryImgTall" src={img4} alt="img4"/>
+                <img className="homeGalleryImg homeGalleryImgTall" src={img3} alt="img3"/>
             </div>
 
             <div id="homeGalleryImgWrap">
-                <img className="homeGalleryImgTransTrig homeGalleryImg" src={img5} alt="img5"/>
+                <img className="homeGalleryImg" src={img5} alt="img5"/>
             </div>
 
             </div>
