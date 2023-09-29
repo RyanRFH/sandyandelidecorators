@@ -1,5 +1,7 @@
 import React from "react"
+
 import '../styling/NavBar.css'
+
 import { Link} from "react-router-dom";
 
 const NavBar = () => {
@@ -10,6 +12,12 @@ const NavBar = () => {
             </a>
             
             <h3 id="navTel">07793 026865</h3>
+
+            <div id="navLinks">
+                <Link className="linkText" to="/">Home</Link>
+                <Link className="linkText" to="/reviews">Reviews</Link>
+            </div>
+
         </div>
 
     )

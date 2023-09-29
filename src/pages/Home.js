@@ -1,5 +1,7 @@
 import React from "react"
+
 import '../styling/Home.css'
+
 import img1 from "../resources/work_images/340078528_3465254913717183_2014099130808656391_n.jpg"
 import img2 from "../resources/work_images/340236116_2544627039025523_5350044887685715958_n.jpg"
 
@@ -15,8 +17,6 @@ import img7 from "../resources/work_images/286837629_151066587443310_85818783564
 
 import img8 from "../resources/work_images/278571382_141163665100269_6044949128933156402_n.jpg"
 import img9 from "../resources/work_images/278759728_141163605100275_3008526236278052588_n.jpg"
-
-import fbLogo from "../resources/site_images/facebook.png"
 
 const Home = () => {
     return (
@@ -48,13 +48,6 @@ const Home = () => {
             </div>
 
             </div>
-            <div id="footer">
-                <a href="https://www.facebook.com/sandyelidecorators">
-                    <img style={{width:"32px", marginTop:"10px"}} src={fbLogo} alt="fbLogo"/>
-                </a>
-                <p id="navTel">07793 026865</p>
-            </div>
-            
 
         </div>
 

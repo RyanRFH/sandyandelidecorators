@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+    .reviewContent {
+        text-align: center;
+        color: #1e06a3;
+        font-size: 14px;
+    }
+
+    .reviewName {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    #reviewsWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .reviewContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 40%; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .reviewContent {
+        text-align: center;
+        color: #1e06a3;
+        font-size: 20px;
+    }
+
+    .reviewName {
+        margin-top: 0px;
+    }
+
+    #reviewsWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .reviewContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin-bottom: 50px;
+    }
+}

@@ -47,27 +47,15 @@
     }
 }
 
-
-
 #homeContainer {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
 }
 
-#footer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 #homeGalleryCont {
     text-align: center;
 }
-
-
 
 #homeGalleryTitle {
     margin: 0px;
@@ -78,7 +66,7 @@
 
 .homeGalleryImgTransTrig {
     animation-name: homeGalleryImgTrans;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 @keyframes homeGalleryImgTrans {
