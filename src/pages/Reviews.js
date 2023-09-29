@@ -1,6 +1,10 @@
+//MAKE IT SO SCROLLBAR RESETS ON COMPONENT LOAD (MAYBE USING scrollLeft = 0) https://stackoverflow.com/questions/47280054/reset-scroll-position-on-component-re-render
+
 import '../styling/Reviews.css'
 
 const Reviews = () => {
+
+    window.scrollTo(0,0)
 
     return (
         <div id="reviewsWrapper">

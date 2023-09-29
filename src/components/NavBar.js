@@ -1,3 +1,7 @@
+//MAKE NAVBAR SMALLER, TAKES UP TOO MUCH SCREEN SPACE
+//MAKE NAVBAR BUTTONS BIGGER ON MOBILE
+//MAKE NAMES IN REVIEWS NOT WRAP
+
 import React from "react"
 
 import '../styling/NavBar.css'
@@ -10,7 +14,7 @@ const NavBar = () => {
             <a id="navTitleWrap" href="https://www.facebook.com/sandyelidecorators">
                 <h1 id="navTitle">Sandy & Eli Decorators</h1>
             </a>
-            
+
             <h3 id="navTel">07793 026865</h3>
 
             <div id="navLinks">
