@@ -20,8 +20,15 @@
     .linkText {
         text-decoration: none;
         font-family: "Fuggles-Regular";
-        font-size: 42px;
+        font-size: 32px;
         font-weight: bold;
+        color: rgb(10, 75, 98);
+    }
+
+    #navLinks {
+        display: flex;
+        justify-content: space-evenly;
+        width: 75%;
         color: rgb(10, 75, 98);
     }
 }
@@ -53,6 +60,13 @@
         color: rgb(10, 75, 98);
         height: 50px;
     }
+
+    #navLinks {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        color: rgb(10, 75, 98);
+    }
 }
 
 
@@ -77,12 +91,5 @@
 #navTitleWrap {
     text-decoration: none;
 
-}
-
-#navLinks {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    color: rgb(10, 75, 98);
 }
 
